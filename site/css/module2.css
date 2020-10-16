@@ -1,0 +1,54 @@
+#foodnavlist, button{
+	float: right;
+	margin-top: 0px;
+	font-size: 1.2em;
+	padding-top:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+div.navbar-header{
+
+	width:110%;
+	margin-right: 0px;
+	padding-top: 0px;
+}
+.name{
+	font-size:30px;
+}
+.name:hover{
+	text-decoration: none;
+	 
+}
+
+.nav-item a{
+	
+	text-align: center;
+}
+.sub-head{
+	margin-bottom: 50px;
+	margin-top: 2px;
+}
+#box{
+	background-color: grey;
+	margin:10px;
+}
+@media(min-width: 1200px){
+
+	
+
+}
+@media(min-width: 994px)and(max-width: 1199px){
+
+}
+@media(min-width: 768px)and(max-width: 993px){
+ul{
+	width:764px;
+	text-align:center;
+}
+}
+@media(max-width: 767px){
+	ul{
+		width:560px;
+		text-align:center;
+	}
+}
