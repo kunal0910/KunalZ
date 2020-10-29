@@ -1,0 +1,168 @@
+.navbar{
+	background-color: red;
+}
+body{
+	background-color: #F5F5F3 ;
+}
+header{
+	background-color: red;
+}
+  /*{
+	background-image:url(../images/2.jpg);
+	background-repeat: no-repeat; 
+	width:15% ;
+	height: 10%;
+	margin-left:0px;
+}*/
+
+#navbarNavDropdown, button{
+	float: right;
+	margin-top: 0px;
+	font-size: 1.2em;
+	padding-top:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+div.navbar-header{
+
+	width:110%;
+	margin-right: 0px;
+	padding-top: 0px;
+}
+.jumbotron{
+	padding: 0px;
+	border:2px solid black;
+}
+#nav-list a:hover{
+		background:red;
+}
+.navbar-brand{
+	font-family: 'Staatliches', cursive;
+	font-size: 2.5em;
+	padding-top: 1px;
+}
+img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#main-content.container{
+	
+	
+	padding: 0px;
+	
+}
+.tagline{
+	text-shadow:10px solid black;
+	color:  black ;
+
+}
+#home-tiles{
+	padding: 10px;
+	margin:0px 10px 5px 10px;
+}
+#top-tile, #just-tile, #afford-tile{
+	height:250px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	
+	
+
+	
+
+}
+#top-tile span, #just-tile span, #afford-tile span{
+	background:#000;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	 color: #fff;
+	 opacity:0.5;
+	 font-size: 30px;
+	 text-align: center;
+}
+
+#top-tile:hover, #just-tile:hover, #afford-tile:hover{
+	box-shadow:0px 1px 5px 1px solid black;
+}
+#top-tile{
+	background-image:url(../images/4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#just-tile{
+	background-image:url(../images/7.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#afford-tile{
+	background-image:url(../images/9.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.panel-footer{
+	background-color:#B0B0B0 ;
+	margin:0px;
+	padding: 6px;
+
+}
+#about, #follow, #connect{
+	line-height: 1.5em;
+}
+#about span, #follow span, #connect span{
+	font-size: 1.5em;
+	margin-bottom: 8px;
+}
+.lastline{
+	text-align: center;
+}
+.row hr{
+	width:50%;
+
+	border:1px solid black;
+}
+/*******--media-queries--*******/
+@media(min-width: 1200px)
+{.jumbotron{
+	
+	height: 700px;
+	background-image: url(../images/13_1200.jpg);
+}
+.tagline{
+	font-size: 6em;
+}
+}
+
+@media(min-width: 992px)and (max-width: 1199px){
+		.jumbotron{
+				height:600px;
+				background-image: url(../images/12.jpg);
+}
+.tagline{
+	font-size: 5.2em;
+}
+}
+@media(min-width: 767px)and (max-width:991px ){
+		.jumbotron{
+			height: 500px;
+			background-image: url(../images/5.jpg);
+}
+.tagline{
+	font-size: 4.2em;
+}
+}
+@media(max-width: 766px){
+	.tagline{
+	font-size: 2.6em;
+	margin:40px;
+}
+.top-left{
+ position: absolute;
+ top:30px;
+ margin-left:0px;
+ 
+}
+
+}
